@@ -1,4 +1,4 @@
-# ASK-Projekt-2
+# Architektura systemów komputerowych-Projekt-2
 
 ## Opis projektu
 
@@ -17,7 +17,7 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
     - Aktywny: symbol górnej kreski (\_)
     - Nieaktywny: symbol dolnej kreski (-)
   - Licznik wykrytych ruchów od momentu aktywacji alarmu
-- **Dokumentacja projektu w formacie PDF** (screeny, kody źródłowe, prezentacja działania)
+  
 
 ## Wymagania sprzętowe
 
@@ -29,17 +29,6 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 - Rezystory
 - Przyciski
 - 8-bitowy rejestr przesuwny 74HC595
-
-## Wymagania programowe
-
-- Arduino IDE
-- Biblioteki: `Wire.h`, `LiquidCrystal.h` (jeśli panel LED to LCD)
-
-## Instrukcja uruchomienia
-
-1. Podłącz czujniki PIR oraz diody LED zgodnie ze schematem połączeń.
-2. Wgraj kod źródłowy do ATMega328P za pomocą Arduino IDE.
-3. Uruchom system i przetestuj działanie załączania/wyłączania czujników.
 
 
 ## Link do projektu Tinkercad
