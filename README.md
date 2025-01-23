@@ -44,7 +44,7 @@ https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfx
 
 2. **Aktywacja alarmu:**  
    - Alarm zostaje aktywowany poprzez naciśnięcie przycisku pierwszego czujnika.
-   - Dioda led znajdująca się przy czujniku zacznie świecić   
+   - Dioda led znajdująca się przy czujniku zacznie świecić oznacza to, że czujnik jest aktywny
    - Po aktywacji na panelu LED wyświetlana jest górna kreska (-), symbolizująca włączony alarm.  
    - System pozostaje w stanie aktywnym, dopóki przynajmniej jeden czujnik jest włączony.
 
