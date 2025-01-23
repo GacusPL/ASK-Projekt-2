@@ -1,24 +1,23 @@
-# Architektura systemów komputerowych-Projekt-2
+# Architektura systemów komputerowych Projekt-2
 
 ## Opis projektu
 
-ASK zadanie semestralne 2 projekt Alarmu
+ASK zadanie semestralne 2 projekt prostego alarmu
 
 Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który monitoruje ruch za pomocą czujników PIR. Projekt umożliwia kontrolę statusu czujników, wyświetlanie informacji o stanie alarmu na panelu LED oraz rejestrację liczby wykrytych ruchów.
 
 ## Funkcjonalności
 
 - **Jednostka sterująca:** ATMega328P (Arduino)
-- **Obsługa minimum 5 czujników PIR**
+- **Obsługa 5 czujników PIR**
   - Możliwość indywidualnego załączania/wyłączania czujników
   - Każdy czujnik wyposażony w diodę LED statusu (świecenie = aktywny, brak = nieaktywny)
 - **Panel LED:**
   - Wyświetlanie statusu alarmu:
-    - Aktywny: symbol górnej kreski (\_)
-    - Nieaktywny: symbol dolnej kreski (-)
+    - Aktywny: symbol górnej kreski (-)
+    - Nieaktywny: symbol dolnej kreski (\_)
   - Licznik wykrytych ruchów od momentu aktywacji alarmu
   
-
 ## Wymagania sprzętowe
 
 - ATMega328P (Arduino UNO lub kompatybilny)
@@ -29,7 +28,6 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 - Rezystory
 - Przyciski
 - 8-bitowy rejestr przesuwny 74HC595
-
 
 ## Link do projektu Tinkercad
 
