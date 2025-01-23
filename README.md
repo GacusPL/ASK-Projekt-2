@@ -22,10 +22,13 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 ## Wymagania sprzętowe
 
 - ATMega328P (Arduino UNO lub kompatybilny)
-- 5x czujnik PIR (np. HC-SR501)
-- Panel LED (np. 7-segmentowy wyświetlacz lub inny kompatybilny)
+- 5x czujnik PIR 
+- Panel LED (7-segmentowy wyświetlacz LED)
 - Przewody połączeniowe
 - Dioda LED dla każdego czujnika PIR
+- Rezystory
+- Przyciski
+- 8-bitowy rejestr przesuwny 74HC595
 
 ## Wymagania programowe
 
@@ -38,6 +41,11 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 2. Wgraj kod źródłowy do ATMega328P za pomocą Arduino IDE.
 3. Uruchom system i przetestuj działanie załączania/wyłączania czujników.
 
+
+## Link do projektu Tinkercad
+
+[Projekt alarmu]([https://www.genome.gov/](https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfxaY5XNDh9_qgL-9ZIHNmJORLkDzH7wIwF1iYf2Y))
+
 ## Planowane funkcjonalności
 
 -
@@ -48,8 +56,8 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 
 ## Autor
 
-[Kacper Szponar]
-[21306]
+Kacper Szponar
+21306
 
 ## Licencja
 
