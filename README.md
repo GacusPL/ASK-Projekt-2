@@ -29,7 +29,7 @@ System alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który monitoru
 
 ## Schemat
 
-!(/alarmschemat.png)
+![](/alarmschemat.png)
 
 ## Link do projektu Tinkercad
 
