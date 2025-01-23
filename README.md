@@ -2,9 +2,7 @@
 
 ## Opis projektu
 
-ASK zadanie semestralne 2 projekt prostego alarmu
-
-Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który monitoruje ruch za pomocą czujników PIR. Projekt umożliwia kontrolę statusu czujników, wyświetlanie informacji o stanie alarmu na panelu LED oraz rejestrację liczby wykrytych ruchów.
+System alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który monitoruje ruch za pomocą czujników PIR. Projekt umożliwia kontrolę statusu czujników, wyświetlanie informacji o stanie alarmu na panelu LED oraz rejestrację liczby wykrytych ruchów.
 
 ## Funkcjonalności
 
@@ -29,10 +27,18 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 - Przyciski
 - 8-bitowy rejestr przesuwny 74HC595
 
+## Schemat
+
+!(/alarmschemat.png)
+
 ## Link do projektu Tinkercad
 
 [Projekt alarmu](
 https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfxaY5XNDh9_qgL-9ZIHNmJORLkDzH7wIwF1iYf2Y)
+
+## Opis działania
+
+
 
 ## Autor
 
