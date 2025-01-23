@@ -44,7 +44,8 @@ Prosty system alarmowy oparty na mikrokontrolerze ATMega328P (Arduino), który m
 
 ## Link do projektu Tinkercad
 
-[Projekt alarmu]([https://www.genome.gov/](https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfxaY5XNDh9_qgL-9ZIHNmJORLkDzH7wIwF1iYf2Y))
+[Projekt alarmu](
+https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfxaY5XNDh9_qgL-9ZIHNmJORLkDzH7wIwF1iYf2Y)
 
 ## Planowane funkcjonalności
 
