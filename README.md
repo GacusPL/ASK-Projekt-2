@@ -77,19 +77,15 @@ https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfx
 4. **Wykrywanie ruchu:**
    - Czujniki PIR monitorują obecność ruchu. Jeśli ruch zostanie wykryty, zmienne `pirDetected[]` dla danego czujnika są ustawiane na `true`.
 
-5. **Sterowanie diodami LED:**
-   - Dioda LED dla każdego czujnika sygnalizuje jego aktywność.
-
-6. **Wyświetlanie na panelu LED:**
+5. **Wyświetlanie na panelu LED:**
    - Funkcja `writeLED(byte data)` przesyła dane do rejestru przesuwnego (74HC595), który steruje 7-segmentowym wyświetlaczem LED.  
    - Wartości z tablicy `liczby[]` odpowiadają cyfrom od 1 do 5.
 
-## Rola zmiennych
+### Zmienne
 
 - `sensorEnabled[]` – tablica przechowująca status każdego czujnika (aktywny/nieaktywny).
 - `pirDetected[]` – tablica wskazująca, które czujniki wykryły ruch.
 - `pirDetCount` – liczba aktywnych czujników, które zarejestrowały ruch.
-
 
 ## Autor
 
