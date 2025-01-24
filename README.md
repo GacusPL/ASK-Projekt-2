@@ -61,6 +61,36 @@ https://www.tinkercad.com/things/hQb4lW148Oe-ask-projekt-2-alarm?sharecode=8xqfx
    - Po dezaktywacji wszystkich czujników, panel LED ponownie wyświetla dolną kreskę (_), sygnalizując powrót systemu do trybu czuwania.  
    - Wszystkie czujniki są nieaktywne - alarm zostaje wyłączony do momentu aż któryś czujnik zostanie ponownie włączony.
 
+## Opis kodu
+
+1. **Tablice pinów:**
+   - `pirPins[]`, `buttonPins[]`, `ledPins[]` – przechowują numery pinów odpowiadających czujnikom PIR, przyciskom oraz diodom LED.
+   
+2. **Inicjalizacja:**
+   - W funkcji `setup()` ustawiane są tryby pracy pinów jako wejścia (czujniki, przyciski) lub wyjścia (diody, rejestr przesuwny).
+   - Włączany jest port szeregowy do monitorowania zdarzeń.
+
+3. **Obsługa przycisków:**
+   - W pętli `loop()` przyciski są odczytywane za pomocą `digitalRead()`.  
+   - Naciśnięcie przycisku zmienia status czujnika (aktywny/nieaktywny).
+
+4. **Wykrywanie ruchu:**
+   - Czujniki PIR monitorują obecność ruchu. Jeśli ruch zostanie wykryty, zmienne `pirDetected[]` dla danego czujnika są ustawiane na `true`.
+
+5. **Sterowanie diodami LED:**
+   - Dioda LED dla każdego czujnika sygnalizuje jego aktywność.
+
+6. **Wyświetlanie na panelu LED:**
+   - Funkcja `writeLED(byte data)` przesyła dane do rejestru przesuwnego (74HC595), który steruje 7-segmentowym wyświetlaczem LED.  
+   - Wartości z tablicy `liczby[]` odpowiadają cyfrom od 1 do 5.
+
+## Rola zmiennych
+
+- `sensorEnabled[]` – tablica przechowująca status każdego czujnika (aktywny/nieaktywny).
+- `pirDetected[]` – tablica wskazująca, które czujniki wykryły ruch.
+- `pirDetCount` – liczba aktywnych czujników, które zarejestrowały ruch.
+
+
 ## Autor
 
 Kacper Szponar
